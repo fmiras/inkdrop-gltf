@@ -1,22 +1,33 @@
 {
-  "name": "chartjs",
+  "name": "inkdrop-gltf",
   "main": "./lib/index",
-  "version": "2.1.0",
-  "description": "Inkdrop plugin for drawing charts with Chart.js",
-  "keywords": [],
-  "repository": "https://github.com/elpnt/inkdrop-chartjs",
+  "version": "1.0.0",
+  "description": "Inkdrop plugin for rendering GLTFs with Three.js",
+  "keywords": [
+    "threejs",
+    "3d",
+    "algebra",
+    "geometry",
+    "math",
+    "webgl",
+    "gl",
+    "graphics",
+    "gltf"
+  ],
+  "repository": "https://github.com/fmiras/inkdrop-gltf",
   "license": "MIT",
   "scripts": {
     "build": "swc ./src -d lib",
     "watch": "swc ./src -d lib -w"
   },
   "engines": {
-    "inkdrop": "^5.x"
+    "inkdrop": "^5.3.1"
   },
   "dependencies": {
-    "chart.js": "^4.2.0",
-    "json5": "^2.2.3",
-    "react-resize-detector": "^8.0.3"
+    "@react-three/drei": "^8.20.2",
+    "@react-three/fiber": "7.0.29",
+    "react-resize-detector": "^8.0.3",
+    "three": "^0.154.0"
   },
   "devDependencies": {
     "@swc/cli": "^0.1.61",
