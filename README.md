@@ -1,7 +1,7 @@
 # Inkdrop GLTF Plugin
 
-![Inkdrop Plugin Version](https://inkdrop-plugin-badge.vercel.app/api/version/chartjs?style=flat)
-![Inkdrop Plugin Downloads](https://inkdrop-plugin-badge.vercel.app/api/downloads/chartjs?style=flat)
+![Inkdrop Plugin Version](https://inkdrop-plugin-badge.vercel.app/api/version/gltf?style=flat)
+![Inkdrop Plugin Downloads](https://inkdrop-plugin-badge.vercel.app/api/downloads/gltf?style=flat)
 
 Inkdrop plugin for rendering GLTF files with [Three.js](https://threejs.org/)
 
