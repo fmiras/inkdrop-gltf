@@ -1,5 +1,5 @@
 {
-  "name": "inkdrop-gltf",
+  "name": "gltf",
   "main": "./lib/index",
   "version": "0.0.0",
   "description": "Inkdrop plugin for rendering GLTFs with Three.js",
